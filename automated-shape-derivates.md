@@ -160,9 +160,16 @@ And we obtain the following shapes throughout the optimisation:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BgVmrgjaxaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## More examples
+## Optimisation of an airfoil subject to geometric constraints
 
-We briefly show two more examples: shape optimisation of a 3D pipe and shape optimisation of an airfoil to maximize aerodynamic efficiency subject to box constraints.
+We consider a second example: the optimisation of an airfoil.
+The objective we consider is the airfoils aerodynamic efficiency, that is the ratio of the lift and drag.
+The goal is to obtain design that yields a large amount of lift while having low drag.
+In addition, we enforce box constraints on the airfoil; this is particularly relevant in applications like Formula 1 where the design of the car is strongly constrained by the rulebook.
+The video below shows the shape of the airfoil at each iteration in the optimisation and the colours indicate the velocity obtained by solving for laminar flow.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-iwDaVdmFkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-iwDaVdmFkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
+## Code availability
+
+The code and meshes from this tutorial can be found on GitHub: [https://github.com/florianwechsung/LCS-Automated-Shape-Differentiation](https://github.com/florianwechsung/LCS-Automated-Shape-Differentiation)

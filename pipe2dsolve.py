@@ -1,6 +1,6 @@
 from firedrake import *
 
-mesh = Mesh("pipe.msh")
+mesh = Mesh("pipe2d.msh")
 
 degree = 2
 V = VectorFunctionSpace(mesh, "CG", degree)
